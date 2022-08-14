@@ -1,0 +1,21 @@
+/* 9 kutudan her biri */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(251, 240, 240);
+  border: 1px solid #293462;
+  cursor: pointer;
+  font-size: 5em;
+}
+.box:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.2);
+}
+/* x kutusu */
+.x {
+  color: #d61c4e;
+}
+/* o kutusu */
+.o {
+  color: #feb139;
+}

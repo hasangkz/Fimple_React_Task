@@ -1,0 +1,28 @@
+/* oyuncuların skorlarını gösterme */
+.score {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+  margin: auto;
+  font-weight: bold;
+}
+.scoreItem {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+.scoreX {
+  color: #fff;
+  background-color: #d61c4e;
+}
+.scoreO {
+  color: #fff;
+  background-color: #feb139;
+}
+/* sıradaki oyuncu için bekleme efekti */
+.toogle {
+  background-color: #293462;
+  opacity: 0.1;
+}

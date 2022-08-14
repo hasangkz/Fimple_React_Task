@@ -1,0 +1,19 @@
+/* genel container */
+.App {
+  background-color: #293462;
+  text-align: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/* hangi oyuncunun kazandığına dair açıklama */
+#winner {
+  display: inline-block;
+  box-shadow: rgba(50, 50, 73, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  font-size: 30px;
+  letter-spacing: 10px;
+  color: #fff;
+  background-color: #293462;
+  padding: 10px 20px;
+}

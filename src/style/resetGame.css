@@ -1,0 +1,19 @@
+/* tekrar butonu */
+.reset {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(28, 160, 23);
+  color: #fff;
+  padding: 0.5rem 4rem;
+  margin: 2rem auto;
+  letter-spacing: 4px;
+  font-family: 'Silkscreen', cursive;
+  display: block;
+  font-size: large;
+  transition: background-color 1.2s;
+}
+.reset:hover {
+  cursor: pointer;
+  background-color: #293462;
+  color: rgb(28, 160, 23);
+}
